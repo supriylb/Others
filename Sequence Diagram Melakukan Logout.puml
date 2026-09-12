@@ -1,0 +1,29 @@
+@startuml
+
+actor User
+boundary "Halaman\nUtama" as HU
+control Sistem
+entity Database
+boundary "Halaman\nLogin" as HL
+
+activate User
+User -> HU: 1. Membuka halaman utama
+activate HU
+User -> HU: 2. Memilih tombol logout
+HU -> Sistem: 3. Meminta logout
+activate Sistem
+Sistem -> Database: 4. Mengirim\npermintaan logout
+activate Database
+Database --> Sistem: 5. Menghapus\nsession user
+deactivate Database
+Sistem --> HU: 6. Mengakhiri session user
+deactivate Sistem
+HU --> User: 7. Menampilkan halaman login
+deactivate HU
+User -> HL: 8. Mengakses halaman login
+deactivate User
+activate HL
+HL -[#white]-> Database: \n
+deactivate HL
+
+@enduml

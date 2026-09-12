@@ -1,0 +1,41 @@
+@startuml
+
+actor User
+boundary "Halaman\nLogin" as HL
+control Sistem
+entity Database
+boundary "Halaman\nUtama" as HU
+
+activate User
+User -> HL: 1. Mengisi email dan password
+activate HL
+HL -> Sistem: 2. Mengirim permintaan login
+deactivate HL
+activate Sistem
+Sistem -> Database: 3. Melakukan validasi
+activate Database
+Database --> Sistem: 4. Apakah valid?
+deactivate Database
+
+alt Jika validasi berhasil
+  Sistem --> HL: 5. Memberi akses halaman utama
+  deactivate Sistem
+  activate HL
+  HL --> User: 6. Login berhasil
+  deactivate HL
+  User -> HU: 7. Mengakses halaman utama
+  activate HU
+  HU -[#white]-> Sistem: \n
+  deactivate HU
+else Jika validasi gagal
+  activate Sistem
+  Sistem --> HL: 8. Mengirim pesan error
+  deactivate Sistem
+  activate HL
+  HL --> User: 9. Tampilkan pesan error
+  deactivate HL
+end
+
+deactivate User
+
+@enduml

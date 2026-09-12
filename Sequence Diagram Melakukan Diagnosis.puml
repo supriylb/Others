@@ -1,0 +1,46 @@
+@startuml
+
+actor User
+boundary "Halaman\nDiagnosis" as HD
+control Sistem
+entity Database
+boundary "Halaman\nHasil" as HH
+
+activate User
+User -> HD: 1. Membuka halaman diagnosis
+activate HD
+HD --> User: 2. Menampilkan\nhalaman diagnosis
+User -> HD: 3. Memilih check box
+HD -> Sistem: 4. Mengirim check\nbox yang dipilih
+activate Sistem
+Sistem --> HD: 5. Apakah ada check\nbox yang dipilih?
+deactivate Sistem
+
+alt Jika ada yang dipilih
+  HD -> Sistem: 6. Menganalisis dengan\nmodel naive bayes
+  activate Sistem
+  Sistem -> Database: 7. Mengirim data\nanalisis
+  activate Database
+  Database --> Sistem: 8. Data analisis\ntersimpan
+  deactivate Database
+  Sistem --> HD: 9. Analisis berhasil
+  deactivate Sistem
+  HD --> User: 10. Menampilkan halaman hasil
+  deactivate HD
+  User -> HH: 11. Mengakses halaman hasil
+  activate HH
+  HH -[#white]-> Database: \n
+  deactivate HH
+  
+else Jika tidak ada yang dipilih
+  activate Sistem
+  Sistem --> HD: 12. Mengirim pesan error
+  deactivate Sistem
+  activate HD
+  HD --> User: 13. Menampilkan pesan error
+  deactivate HD
+end
+
+deactivate User
+
+@enduml

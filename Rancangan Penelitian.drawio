@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="wHdfGZ13fx4ADPY9SH9t">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pil9-S94IqZs-VhP3HgC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-1" target="pil9-S94IqZs-VhP3HgC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-1" target="pil9-S94IqZs-VhP3HgC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-1" value="Penilaian" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-2" target="pil9-S94IqZs-VhP3HgC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-2" target="pil9-S94IqZs-VhP3HgC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-2" value="Akuisisi&lt;br&gt;Pengetahuan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-3" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Analisis Masalah&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Analisis Kebutuhan&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Sumber Pengetahuan&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="434" y="230" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-4" value="Teknik Pengumpulan Data:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Wawancara&lt;/li&gt;&lt;li&gt;Studi Literatur&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Representasi Pengetahuan:&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Kaidah Produksi&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Basis Pengetahuan:&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Rule Based Reasoning&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Mesin Inferensi:&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot; lang=&quot;IN&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;Naïve Bayes&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=24;" vertex="1" parent="1">
+          <mxGeometry x="434" y="340" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-8" value="&lt;ul&gt;&lt;li&gt;Desain Arsitektur Aplikasi&lt;/li&gt;&lt;li&gt;Desain Arsitektur Basis Data&lt;/li&gt;&lt;li&gt;Desain Antarmuka Pengguna&lt;/li&gt;&lt;li&gt;Implementasi&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="434" y="630" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-9" target="pil9-S94IqZs-VhP3HgC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-9" target="pil9-S94IqZs-VhP3HgC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-9" value="Desain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-11" target="pil9-S94IqZs-VhP3HgC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-19" value="Eksplorasi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-11" target="pil9-S94IqZs-VhP3HgC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="800" />
+              <mxPoint x="134" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-21" value="Perbaikan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-11" target="pil9-S94IqZs-VhP3HgC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="800" />
+              <mxPoint x="174" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4euB-YOI4W_5geOmjB6--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pil9-S94IqZs-VhP3HgC-11" target="pil9-S94IqZs-VhP3HgC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-11" value="Pengujian" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-12" value="&lt;ul&gt;&lt;li&gt;Black Box Testing&lt;/li&gt;&lt;li&gt;White Box Testing&lt;/li&gt;&lt;li&gt;Uji Pakar&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="434" y="760" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pil9-S94IqZs-VhP3HgC-13" value="Dokumentasi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,23 @@
+@startuml
+
+actor User
+boundary "Halaman\nUtama" as HU
+control Sistem
+entity Database
+
+activate User
+User -> HU: 1. Membuka\nhalaman utama
+activate HU
+HU -> Sistem: 2. Meminta data riwayat
+activate Sistem
+Sistem -> Database: 3. Mengirim permintaan\ndata riwayat
+activate Database
+Database --> Sistem: 4. Mengirim data riwayat
+deactivate Database
+Sistem --> HU: 5. Menerima data riwayat
+deactivate Sistem
+HU --> User: 6. Menampilkan data riwayat
+deactivate HU
+deactivate User
+
+@enduml
